@@ -7,8 +7,6 @@ WORKDIR /usr/src/app
 # where available (npm@5+)
 COPY package.json ./
 
-RUN npm config set registry https://artifactory.aexp.com/api/npm/npm/
-
 RUN npm install
 
 # Bundle app source

@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: hello-world
-        image: gcr.io/google-samples/node-hello:1.0
+        image: 678676043165.dkr.ecr.us-east-2.amazonaws.com/kubernetes-example:latest
         ports:
         - containerPort: 8080
         env:
